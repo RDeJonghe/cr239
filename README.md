@@ -2,7 +2,7 @@
 
 ## About
 - Create, add, edit and delete contacts.
-- Built using an MVC architecture
+- Built using a MVC architecture
   - Model
     - used to interact with the API and provide functionality to manipulate data
   - View
