@@ -1,5 +1,6 @@
-const BASE_URL = 'http://localhost:3000/api/contacts'
+const BASE_URL = 'http://localhost:3000/api/contacts';
 
+/* eslint-disable consistent-return*/
 class Model {
   getAllContacts = async () => {
     try {
@@ -15,7 +16,7 @@ class Model {
   }
 
   getAllContactsObj = async () => {
-    return { contact: await this.getAllContacts() }
+    return { contact: await this.getAllContacts() };
   }
 
   getContact = async (id) => {
@@ -50,7 +51,7 @@ class Model {
   }
 
   deleteContact = async (id) => {
-    let confirmation = confirm('Confirm deletion of contact:')
+    let confirmation = confirm('Confirm deletion of contact:');
     if (confirmation) {
       try {
         let response = await fetch(BASE_URL + `/${id}`, {
@@ -96,13 +97,14 @@ class Model {
     } else if (flag === 'tag') {
       return allContactsArr.filter(contact => {
         return contact.tags.match(searchRegEx);
-      })
+      });
     }
   }
 
   getSearchContacts = async (searchStr, flag) => {
     let searchRegEx = new RegExp(searchStr, 'gi');
-    return await this.filterContacts(searchRegEx, flag);
+    let results = await this.filterContacts(searchRegEx, flag);
+    return results;
   }
 
   getAllUniqueTags = async () => {
@@ -126,9 +128,9 @@ class Model {
 
     if (tags.trim() === '') {
       formattedTags = ['no tags'];
-    } else { 
+    } else {
       formattedTags = tags.split(',').map(tag => {
-          return tag.toLowerCase().trim();
+        return tag.toLowerCase().trim();
       });
     }
 

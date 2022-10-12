@@ -31,7 +31,7 @@ class Controller {
   #debounce = (func, delay) => {
     let timeout;
     return (...args) => {
-      if (timeout) { clearTimeout(timeout) }
+      if (timeout) clearTimeout(timeout);
       timeout = setTimeout(() => func.apply(null, args), delay);
     };
   };
@@ -40,7 +40,7 @@ class Controller {
     this.view.displayNewContactForm();
   }
 
-  searchHandler = async (event) => {
+  searchHandler = async () => {
     let searchStr = document.querySelector('#searchBox').value;
     let results = await this.model.getSearchContacts(searchStr, 'full_name');
     this.setSearchedInterface(results);
@@ -82,7 +82,7 @@ class Controller {
     let formData = new FormData(event.target);
     let jsonData = JSON.stringify(Object.fromEntries(formData));
     await this.model.sendNewContact(jsonData);
-    this.setInterface();  
+    this.setInterface();
   }
 
   cancelNewContactHandler = () => {

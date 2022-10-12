@@ -43,7 +43,7 @@ class View {
 
   displayEditForm = (data) => {
     this.hideDiv('#addSearch');
-    this.hideDiv('#tagsDiv')
+    this.hideDiv('#tagsDiv');
     this.hideDiv('#contacts');
     this.showDiv('#editDiv');
     this.setInnerHtml('#editFormDiv', this.editTemplate(data));
