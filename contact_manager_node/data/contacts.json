@@ -21,17 +21,38 @@
     "id": 3
   },
   {
-    "full_name": "Richard Prior",
-    "phone_number": "111-555-9999",
-    "email": "rp@gmail.com",
-    "tags": "comedian",
-    "id": 4
-  },
-  {
     "full_name": "Joe Jones",
     "phone_number": "999-555-6666",
     "email": "jj@gmail.com",
     "tags": "no tags",
     "id": 5
+  },
+  {
+    "full_name": "Ariana Grande",
+    "phone_number": "111-222-3333",
+    "email": "ag@gmail.com",
+    "tags": "singer",
+    "id": 6
+  },
+  {
+    "full_name": "Dave Chapelle",
+    "phone_number": "111-222-4444",
+    "email": "dc@gmail.com",
+    "tags": "comedian",
+    "id": 7
+  },
+  {
+    "full_name": "Patrick Mahomes",
+    "phone_number": "111-333-5555",
+    "email": "pm@gmail.com",
+    "tags": "no tags",
+    "id": 8
+  },
+  {
+    "full_name": "Will Ferrell",
+    "phone_number": "111-888-9999",
+    "email": "wf@gmail.com",
+    "tags": "actor",
+    "id": 9
   }
 ]
