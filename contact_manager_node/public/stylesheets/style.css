@@ -1,0 +1,21 @@
+ul {
+  display: table-cell;
+  border-spacing: 10px;
+}
+
+li {
+  float: left;
+  display: table;
+}
+
+#newContact {
+  display: none;
+}
+
+#editDiv {
+  display: none;
+}
+
+#tagsDiv {
+  display: none;
+}

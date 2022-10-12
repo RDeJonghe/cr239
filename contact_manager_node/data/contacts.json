@@ -1,0 +1,37 @@
+[
+  {
+    "full_name": "Jerry Seinfeld",
+    "phone_number": "111-222-9999",
+    "email": "js@gmail.com",
+    "tags": "actor,comedian",
+    "id": 1
+  },
+  {
+    "full_name": "Owen Wilson",
+    "phone_number": "222-111-5555",
+    "email": "ow@gmail.com",
+    "tags": "actor",
+    "id": 2
+  },
+  {
+    "full_name": "Taylor Swift",
+    "phone_number": "333-999-0000",
+    "email": "ts@gmail.com",
+    "tags": "singer",
+    "id": 3
+  },
+  {
+    "full_name": "Richard Prior",
+    "phone_number": "111-555-9999",
+    "email": "rp@gmail.com",
+    "tags": "comedian",
+    "id": 4
+  },
+  {
+    "full_name": "Joe Jones",
+    "phone_number": "999-555-6666",
+    "email": "jj@gmail.com",
+    "tags": "no tags",
+    "id": 5
+  }
+]
