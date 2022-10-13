@@ -47,12 +47,13 @@
         pattern="^[A-Z][a-z]+\s[A-Z][a-z]+$" required>
       <br><br>
     <label for="email">Email (my_email@gmail.com / my.email@gmail.com / myemail@gmail.com)</label><br>
-      <input type="text" id="email" name="email"
-        value="{{this.email}}" pattern="^[a-z0-9._]+@[a-z0-9]+\.[a-z]+$">
+      <input type="text" id="email" name="email" value="{{this.email}}" 
+        pattern="^[a-z0-9._]+@[a-z0-9]+\.[a-z]+$" required >
       <br><br>
     <label for="phone_number">Phone Number (###-###-####)</label><br>
       <input type="text" id="phone_number" name="phone_number"
-        value="{{this.phone_number}}" pattern="^[\d]{3}-[\d]{3}-[\d]{4}$">
+        value="{{this.phone_number}}" pattern="^[\d]{3}-[\d]{3}-[\d]{4}$"
+        required >
       <br><br>
     <label for="tags">Tags (for multiple tags separate with comma)</label><br>
       <input type="text" id="tags" name="tags" value="{{this.tags}}">
