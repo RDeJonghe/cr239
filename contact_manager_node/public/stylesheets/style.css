@@ -46,6 +46,11 @@ li {
   margin-left: 10px;
 }
 
+#cancelNewContact {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
 .card {
   margin-bottom: 15px;
 }
