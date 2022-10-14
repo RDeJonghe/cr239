@@ -47,7 +47,7 @@ class Controller {
   }
 
   searchTagHandler = async (event) => {
-    if (event.target.className === 'searchBtn') {
+    if (event.target.className === 'searchBtn btn btn-secondary') {
       let searchStr = event.target.textContent;
       let results = await this.model.getSearchContacts(searchStr, 'tag');
       this.setSearchedInterface(results);

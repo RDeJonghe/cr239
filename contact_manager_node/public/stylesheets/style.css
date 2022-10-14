@@ -1,3 +1,7 @@
+* {
+  margin-left: 10px;
+}
+
 ul {
   display: table-cell;
   border-spacing: 10px;
@@ -6,6 +10,10 @@ ul {
 li {
   float: left;
   display: table;
+}
+
+#addBtn {
+  margin-bottom: 5px;
 }
 
 #newContact {
@@ -18,4 +26,26 @@ li {
 
 #tagsDiv {
   display: none;
+  margin-bottom: 15px;
+}
+
+#searchBox {
+  width: 400px;
+}
+
+#newContactFormDiv {
+  width: 400px;
+}
+
+#editFormDiv {
+  width: 400px;
+}
+
+#cancelEdit {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.card {
+  margin-bottom: 15px;
 }
