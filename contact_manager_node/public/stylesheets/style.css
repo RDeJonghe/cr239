@@ -31,6 +31,9 @@ li {
 
 #searchBox {
   width: 400px;
+  display: inline;
+  float: right;
+  margin-right: 20px;
 }
 
 #newContactFormDiv {
